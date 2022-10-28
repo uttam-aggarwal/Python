@@ -45,7 +45,7 @@ while True:
                 cpu_s+=1
     print(name,":",user_s,"cpu :",cpu_s)
     c=input("Once more? N/Y: ")
-    if c in "N":
+    if c == "N":
         break
     else:
         pass
