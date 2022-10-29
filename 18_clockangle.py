@@ -1,4 +1,5 @@
-#incomplete
+'''Clock Angle Problem: Given time in hh:mm format in 24-hour notation, 
+calculate the shorter angle between the hour and minute hand in an analog clock.'''
 time=input("enter the time in hh:mm format: ")
 o_hour_hand=int(time[0:2])
 if o_hour_hand>12:
