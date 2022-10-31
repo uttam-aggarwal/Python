@@ -4,10 +4,16 @@ You are given three lists’ names, mark’s and update’s where:
 •	Marks contain the marks of the same students.
 •	Updates contains the integers by which the marks of these students are to be updated'''
 #incomplete
+def sort_dict(dict1):
+    new_dict = sorted(dict1.items(), key=lambda x:x[1], reverse=True)
+    converted_dict = dict(new_dict)
+
+    return converted_dict
 name=["A","B","C","D","E"]
 marks=[14,12,33,44,32]
 updates=[33,22,44,55,11]
-dict={}
+dict1={}
 for i in range (0,len(name)):
-    dict[name[i]]=marks[i]
-
+    dict1[name[i]]=marks[i]
+new_dict=(sort_dict(dict1))
+print(new_dict)
