@@ -13,7 +13,21 @@ name=["A","B","C","D","E"]
 marks=[14,12,33,44,32]
 updates=[33,22,44,55,11]
 dict1={}
+dict_u={}
 for i in range (0,len(name)):
     dict1[name[i]]=marks[i]
 new_dict=(sort_dict(dict1))
-print(new_dict)
+for i in range (0,len(name)):
+    dict_u[name[i]]=updates[i]
+new_dict_u=(sort_dict(dict_u))
+print("previous ranking- ")
+#for i in range(0,len(dict1)):
+#   print(i,"-",end='')
+for key,value in new_dict.items():
+    print(key,end=' -- ')
+print("\n","new ranking- ")
+#for i in range(0,len(dict1)):
+#   print(i,"-",end='')
+for key,value in new_dict_u.items():
+    print(key,end=" -- ")
+
