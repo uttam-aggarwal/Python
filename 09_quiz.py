@@ -5,7 +5,7 @@ Every participant/user will attempt 5 rounds and in each round random quiz quest
 If the participant answers the quiz question correct, then congratulate him and add the scores.
 At the end display the details and score of the participant.'''
 import random
-QA={'Q1':'ANS1','Q2':'ANS2','Q3':'ANS3','Q4':'ANS4','Q5':'ANS5'}
+QA={'Q1':'ANS1','Q2':'ANS2','Q3':'ANS3','Q4':'ANS4','Q5':'ANS5','Q6':'ANS6','Q7':'ANS7'}
 score=0
 for i in range(0,5):
     Qs=random.choice(list(QA.keys()))
