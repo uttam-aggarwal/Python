@@ -9,7 +9,12 @@ e_date=int(b[6:10])
 leap,nonleap=[],[]
 for i in range(s_date,e_date+1):
     if i%4==0:
-        leap.append(i)
+        if i%400:
+            leap.append(i)
+        elif i%100:
+            nonleap.append(i)
+        else:
+            leap.append(i)
     else:
         nonleap.append(i)
 print("leap years are: ",leap)
