@@ -13,23 +13,7 @@ Explanation:
     any row or column as well as diagonal is 15
 Note:  2 < = N <= 100'''
 #incomplete
-'''n=int(input("enter the size of matrix: "))
-R1,R2,R3=[],[],[]
-for i in range(0,n):
-    R1.append(0)
-a=1
-b=0
-c=0
-while True:
-    for i in range(1,a+1):
-        R1[0]=i
-        for i in range(0,n):
-            b+=R1[i]
-            c+=R2[i]
-            if b==c:
-                pass
-'''
-for i in range(0,3):
-    print(i,end='')
-    for j in range(0,3):
-        print(j)
+for i in range(1,10):
+    for j in range(1,4):
+        print(i,end="")
+    print("")
