@@ -111,8 +111,13 @@ for i in range(1,4):
 # 3 2
 # 6 5 4
 # 10 9 8 7
-
- 
+a=0
+for i in range(1,5):
+    b=a
+    for j in range(i,0,-1):
+        print(b+j,end=" ")
+        a+=1
+    print("")
 # Pattern #10: Unique Pyramid Pattern of Digits
 # Pattern:
 # 1 
