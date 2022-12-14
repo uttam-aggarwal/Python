@@ -125,7 +125,7 @@ for i in range(1,5):
 # 1 2 3 2 1 
 # 1 2 3 4 3 2 1 
 # 1 2 3 4 5 4 3 2 1
- 
+#will continue
 # Pattern #11: Connected Inverted Pyramid Pattern of Numbers
 # Pattern:
 # 5 4 3 2 1 1 2 3 4 5 
